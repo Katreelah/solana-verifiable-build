@@ -1,15 +1,34 @@
-# Solana Verified Builds
+# Solana Verifiable Build 🛠️🔐  
+**CLI tool for deterministic builds and on-chain verification of Solana programs and buffer accounts.**  
+Built by [Ellipsis Labs](https://github.com/Ellipsis-Labs) — maintained by `maintainers@ellipsislabs.xyz`  
+L## Table of Contents  
+- [Overview](#overview)  
+- [Installation](#installation)  
+- [Usage](#usage)  
+- [Build Verification Flow](#build-verification-flow)  
+- [Examples](#examples)  
+- [Docker Support](#docker-support)  
+- [Troubleshooting](#troubleshooting)  
+- [Contributing](#contributing)  
+- [License](#license)
+-  ## Build Verification Flow  
+1. ✅ Build your Solana program locally using `solana-verifiable-build`  
+2. 📦 Upload build metadata to chain (program or buffer account)  
+3. 🔍 Trigger remote verification job  
+4. 📄 Compare local build hash vs on-chain hash  
+5. 🧾 Confirm deterministic match or log mismatch
+6.  ## Examples  
+Run the Hello World demo:  
+```bash
+cargo run --example hello_world
 
-This repository demonstrates how to implement verified builds for Solana programs. Verified builds ensure that your deployed program matches exactly with your public source code, promoting transparency and security in the Solana ecosystem.
+---
 
-## What are Verified Builds?
+Would you like me to generate a full README draft with overlays and captions next? Or do you want to start with a visual checklist for the verification flow?
 
-Verified builds allow developers and users to verify that a deployed Solana program matches its source code. This verification:
 
-- Ensures program authenticity
-- Promotes transparency
-- Builds user trust
-- Makes source code discoverable
+
+
 
 ## Quick Start
 
